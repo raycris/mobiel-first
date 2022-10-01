@@ -1,0 +1,29 @@
+/* 
+1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+:root {
+  /* Colores */
+  --grey: #BABABA;
+  --black: #282623;
+  --off-white: #FAF8F7;
+  --soft-blue: #E7F5FF;
+  --just-white: #FFFFFF;
+  --warm-black: #201E1C;
+  --soft-orange: #FFE9D5;
+  --secondary-blue: #1A9AF7;
+  --bitcoin-orange: #F7931A;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
