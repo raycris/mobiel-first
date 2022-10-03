@@ -75,3 +75,30 @@ header img {
   font-weight: 500;
   line-height: 1.8rem;
 }
+
+.header--title-container .header--button {
+  top: 270px;
+  left: calc(50% - 114.5px);
+  color: var(--black);
+  width: 230px;
+  height: 48px;
+  border: none;
+  display: block;
+  padding: 16px;
+  position: absolute;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  margin-top: 36px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: var(--off-white);
+}
+
+.header--button span{
+  width: 14px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 10px;
+  background-image: url('./src/assets/icons/down-arrow.svg');
+}
