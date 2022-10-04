@@ -51,7 +51,7 @@ header img {
   align-self: center;
 }
 
-.header--title-container {
+.header__title-container {
   width: 90%;
   height: 218px;
   min-width: 288px;
@@ -61,14 +61,14 @@ header img {
   align-self: center;
 }
 
-.header--title-container h1 {
+.header__title-container h1 {
   color: var(--just-white);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
 }
 
-.header--title-container p {
+.header__title-container p {
   color: var(--soft-orange);
   font-size: 1.4rem;
   margin-top: 26px;
@@ -76,7 +76,7 @@ header img {
   line-height: 1.8rem;
 }
 
-.header--title-container .header--button {
+.header__title-container .header__button {
   top: 270px;
   left: calc(50% - 114.5px);
   color: var(--black);
@@ -95,7 +95,7 @@ header img {
   background-color: var(--off-white);
 }
 
-.header--button span {
+.header__button span {
   width: 14px;
   height: 8px;
   display: inline-block;
@@ -117,7 +117,7 @@ main {
   text-align: center;
 }
 
-.main-exchange-container--title {
+.main-exchange__container--title {
   width: 90%;
   margin: 0 auto;
   min-width: 288px;
@@ -149,4 +149,66 @@ main {
   font-weight: 500;
   line-height: 1.6rem;
   margin-bottom: 30px;
+}
+
+.currency-table--container {
+  gap: 2px;
+  color: var(--grey);
+  width: 100%;
+  margin: 0 auto;
+  height: 250px;
+  display: grid;
+  min-width: 230px;
+  max-width: 300px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.table__top-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--just-white);
+}
+
+.top-left {
+  border-top-left-radius: 8px;
+}
+
+.botton-left {
+  border-bottom-left-radius: 8px;
+}
+
+.table__top-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--just-white);
+}
+
+.top-right {
+  border-top-right-radius: 8px;
+}
+.botton-right {
+  border-bottom-right-radius: 8px;
+}
+
+.main__currency-table {
+  width: 70%;
+  height: 360px;
+  margin: 0 auto;
+  min-width: 235px;
+  max-width: 500px;
+  font-family: "Inter", sans-serif;
+}
+
+.main__currency-table .currency__table--title {
+  color: var(--bitcoin-orange);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  margin-bottom: 15px;
 }
