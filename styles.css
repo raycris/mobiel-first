@@ -163,14 +163,14 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1f);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .table__top-left {
+  padding: 12px;
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: var(--just-white);
 }
 
@@ -183,8 +183,23 @@ main {
 }
 
 .table__top-right {
+  color: #757575;
+  padding: 12px;
   display: flex;
+  font-size: 1.4rem;
+  font-weight: normal;
   align-items: center;
+  line-height: 1.8rem;
+  background-color: var(--just-white);
+}
+.table__top-right-second {
+  color: #757575;
+  padding: 12px;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: normal;
+  align-items: center;
+  line-height: 1.8rem;
   justify-content: center;
   background-color: var(--just-white);
 }
@@ -211,4 +226,66 @@ main {
   font-weight: bold;
   line-height: 2.3rem;
   margin-bottom: 15px;
+}
+
+.main__currency-table .currency__table--title--second {
+  color: var(--secondary-blue);
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  margin-bottom: 15px;
+}
+
+.main__currency-table .currency_table--date {
+  width: 190px;
+  height: 32px;
+  margin: 0 auto;
+  padding: 8px;
+  min-width: 172px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: var(--soft-orange);
+}
+.currency_table--date  p{
+  color: var(--warm-black);
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.main__currency-table .currency_table--date--second{
+  width: 190px;
+  height: 32px;
+  margin: 0 auto;
+  padding: 8px;
+  min-width: 172px;
+  margin-top: 16px;
+  border-radius: 8px;
+  background-color: var(--soft-blue);
+}
+
+.currency_table--date--second  p{
+  color: var(--warm-black);
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.currency-table--container .down{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 10px;
+  background-size: cover;
+  background-image: url("./src/assets/icons/trending-down.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.currency-table--container .up{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 10px;
+  background-size: cover;
+  background-image: url("./src/assets/icons/trending-up.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
