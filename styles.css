@@ -407,3 +407,109 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
 }
+
+/* Plans section */
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.plans--title {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  min-width: 288px;
+  margin-bottom: 50px;
+}
+
+.plans--title h2 {
+  color: var(--black);
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding-top: 64px;
+  line-height: 2.6rem;
+}
+
+.plans--title p {
+  color: #757575;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-top: 30px;
+  line-height: 1.8rem;
+}
+
+.plans-container--card {
+  width: 70%;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 0 16px;
+  position: relative;
+  min-width: 230px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  border-radius: 16px;
+  background-color: var(--just-white);
+}
+
+.recommended {
+  top: -16px;
+  left: calc(50% - 60px);
+  color: var(--just-white);
+  width: 120px;
+  height: 32px;
+  padding: 6px;
+  position: absolute;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  background-color: var(--bitcoin-orange);
+}
+
+.plan-card--title {
+  color: var(--black);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding-top: 30px;
+}
+.plan-card--price {
+  color: var(--black);
+  padding: 6px 0;
+  font-size: 5.3rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+}
+
+.plan-card--price sup {
+  color: var(--black);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.plan-card--saving {
+  color: #757575;
+  font-size: 1.2rem;
+}
+
+.plan-card--call {
+  color: var(--black);
+  width: 150px;
+  height: 48px;
+  border: 2px solid var(--bitcoin-orange);
+  font-size: 1.4rem;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.8rem;
+  border-radius: 4px;
+  background-color: var(--off-white);
+}
+
+.plan-card--call span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  background-image: url("./src/assets/icons/orange-right-arrow.svg");
+}
