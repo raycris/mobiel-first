@@ -440,6 +440,15 @@ main {
   line-height: 1.8rem;
 }
 
+.plans-container--slider{
+  gap: 8px;
+  height: 316px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+}
+
 .plans-container--card {
   width: 70%;
   height: 250px;
@@ -451,6 +460,7 @@ main {
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
   border-radius: 16px;
   background-color: var(--just-white);
+  scroll-snap-align: center;
 }
 
 .recommended {
