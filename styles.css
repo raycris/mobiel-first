@@ -487,7 +487,29 @@ main {
   font-weight: 300;
 }
 
-.plan-card--saving{
+.plan-card--saving {
   color: #757575;
   font-size: 1.2rem;
+}
+
+.plan-card--call {
+  color: var(--black);
+  width: 150px;
+  height: 48px;
+  border: 2px solid var(--bitcoin-orange);
+  font-size: 1.4rem;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.8rem;
+  border-radius: 4px;
+  background-color: var(--off-white);
+}
+
+.plan-card--call span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: text-bottom;
+  background-image: url("./src/assets/icons/orange-right-arrow.svg");
 }
