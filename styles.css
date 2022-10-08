@@ -173,9 +173,9 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
+  scroll-snap-align: center;
   grid-template-rows: repeat(4, 1f);
   grid-template-columns: repeat(2, 1fr);
-  scroll-snap-align: center;
 }
 
 .table__top-left {
@@ -466,7 +466,7 @@ main {
 .plans-container--card {
   width: 70%;
   height: 250px;
-  margin: 50px auto 0;
+  margin: auto 0;
   padding: 0 16px;
   position: relative;
   min-width: 190px;
