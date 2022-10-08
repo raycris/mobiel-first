@@ -110,6 +110,8 @@ main {
   background-color: var(--off-white);
 }
 
+/* Exchange section */
+
 .main-exchange-container {
   width: 100%;
   height: auto;
@@ -151,6 +153,14 @@ main {
   margin-bottom: 30px;
 }
 
+.main__tables-container {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: space-between;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+}
+
 .currency-table--container {
   gap: 2px;
   color: var(--grey);
@@ -165,6 +175,7 @@ main {
   line-height: 1.9rem;
   grid-template-rows: repeat(4, 1f);
   grid-template-columns: repeat(2, 1fr);
+  scroll-snap-align: center;
 }
 
 .table__top-left {
@@ -214,10 +225,13 @@ main {
 .main__currency-table {
   width: 70%;
   height: 360px;
-  margin: 0 auto;
+  margin: 0 50px;
+  display: flex;
   min-width: 235px;
   max-width: 500px;
+  align-items: center;
   font-family: "Inter", sans-serif;
+  flex-direction: column;
 }
 
 .main__currency-table .currency__table--title {
@@ -440,7 +454,7 @@ main {
   line-height: 1.8rem;
 }
 
-.plans-container--slider{
+.plans-container--slider {
   gap: 8px;
   height: 316px;
   display: flex;
@@ -525,7 +539,7 @@ main {
 }
 
 /* Footer section*/
-footer{
+footer {
   width: 100%;
   height: 150px;
   display: flex;
@@ -535,15 +549,14 @@ footer{
   background-color: var(--bitcoin-orange);
 }
 
-footer ul{
+footer ul {
   list-style: none;
 }
 
-footer li a{
+footer li a {
   color: var(--just-white);
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.8rem;
   text-decoration: none;
 }
-
