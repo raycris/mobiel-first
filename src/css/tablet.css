@@ -1,4 +1,4 @@
-.main__tables-container{
+.main__tables-container {
   justify-content: center;
 }
 
@@ -10,4 +10,8 @@
 }
 .plans-container--slider {
   justify-content: center;
+}
+
+.bitcoin-img-container {
+  background-image: url("../assets/images/bitcoinbaby2x.png");
 }
